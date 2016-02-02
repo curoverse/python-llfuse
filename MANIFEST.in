@@ -1,0 +1,11 @@
+include Changes.rst
+include LICENSE
+graft doc/html
+graft Include
+graft examples
+graft rst
+graft util
+graft test
+exclude MANIFEST.in
+recursive-include src *.pyx *.pxi *.c *.h
+global-exclude *.pyc
